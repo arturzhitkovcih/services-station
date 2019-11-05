@@ -1,0 +1,189 @@
+//@import 'main/styles/index';
+//
+//@font-face {
+//    font-family: 'JosefinSans-Regular';
+//    font-style: normal;
+//    src: url('../fonts/JosefinSans-Regular.eot'),
+//    url('../fonts/JosefinSans-Regular.eot?#iefix') format('embedded-opentype'),
+//    url('../fonts/JosefinSans-Regular.woff') format('woff'),
+//    url('../fonts/JosefinSans-Regular.ttf') format('truetype');
+//}
+//
+//@font-face {
+//    font-family: 'JosefinSans-Italic';
+//    font-style: normal;
+//    src: url('../fonts/JosefinSans-Italic.eot'),
+//    url('../fonts/JosefinSans-Italic.eot?#iefix') format('embedded-opentype'),
+//    url('../fonts/JosefinSans-Italic.woff') format('woff'),
+//    url('../fonts/JosefinSans-Italic.ttf') format('truetype');
+//}
+//
+//@font-face {
+//    font-family: 'JosefinSans-Light';
+//    font-style: normal;
+//    src: url('../fonts/JosefinSans-Light.eot'),
+//    url('../fonts/JosefinSans-Light.eot?#iefix') format('embedded-opentype'),
+//    url('../fonts/JosefinSans-Light.woff') format('woff'),
+//    url('../fonts/JosefinSans-Light.ttf') format('truetype');
+//}
+//
+//@font-face {
+//    font-family: 'JosefinSans-SemiBold';
+//    font-style: normal;
+//    src: url('../fonts/JosefinSans-SemiBold.eot'),
+//    url('../fonts/JosefinSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+//    url('../fonts/JosefinSans-SemiBold.woff') format('woff'),
+//    url('../fonts/JosefinSans-SemiBold.ttf') format('truetype');
+//}
+//
+//@font-face {
+//    font-family: 'JosefinSans-SemiBoldItalic';
+//    font-style: normal;
+//    src: url('../fonts/JosefinSans-SemiBoldItalic.eot'),
+//    url('../fonts/JosefinSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+//    url('../fonts/JosefinSans-SemiBoldItalic.woff') format('woff'),
+//    url('../fonts/JosefinSans-SemiBoldItalic.ttf') format('truetype');
+//}
+//
+//@font-face {
+//    font-family: 'JosefinSans-Bold';
+//    font-style: normal;
+//    src: url('../fonts/JosefinSans-Bold.eot'),
+//    url('../fonts/JosefinSans-Bold.eot?#iefix') format('embedded-opentype'),
+//    url('../fonts/JosefinSans-Bold.woff') format('woff'),
+//    url('../fonts/JosefinSans-Bold.ttf') format('truetype');
+//}
+//
+//@font-face {
+//    font-family: 'JosefinSans-BoldItalic';
+//    font-style: normal;
+//    src: url('../fonts/JosefinSans-BoldItalic.eot'),
+//    url('../fonts/JosefinSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+//    url('../fonts/JosefinSans-BoldItalic.woff') format('woff'),
+//    url('../fonts/JosefinSans-BoldItalic.ttf') format('truetype');
+//}
+//
+//@font-face {
+//    font-family: 'Yantramanav-Regular';
+//    font-style: normal;
+//    src: url('../fonts/Yantramanav-Regular.eot'),
+//    url('../fonts/Yantramanav-Regular.eot?#iefix') format('embedded-opentype'),
+//    url('../fonts/Yantramanav-Regular.woff') format('woff'),
+//    url('../fonts/Yantramanav-Regular.ttf') format('truetype');
+//}
+//
+//@font-face {
+//    font-family: 'Yantramanav-Light';
+//    font-style: normal;
+//    src: url('../fonts/Yantramanav-Light.eot'),
+//    url('../fonts/Yantramanav-Light.eot?#iefix') format('embedded-opentype'),
+//    url('../fonts/Yantramanav-Light.woff') format('woff'),
+//    url('../fonts/Yantramanav-Light.ttf') format('truetype');
+//}
+//
+//@font-face {
+//    font-family: 'Yantramanav-Bold';
+//    font-style: normal;
+//    src: url('../fonts/Yantramanav-Bold.eot'),
+//    url('../fonts/Yantramanav-Bold.eot?#iefix') format('embedded-opentype'),
+//    url('../fonts/Yantramanav-Bold.woff') format('woff'),
+//    url('../fonts/Yantramanav-Bold.ttf') format('truetype');
+//}
+//
+//@font-face {
+//    font-family: 'Yantramanav-Medium';
+//    font-style: normal;
+//    src: url('../fonts/Yantramanav-Medium.eot'),
+//    url('../fonts/Yantramanav-Medium.eot?#iefix') format('embedded-opentype'),
+//    url('../fonts/Yantramanav-Medium.woff') format('woff'),
+//    url('../fonts/Yantramanav-Medium.ttf') format('truetype');
+//}
+//
+//@font-face {
+//    font-family: 'Voltaire';
+//    font-style: normal;
+//    src: url('../fonts/Voltaire.eot'),
+//    url('../fonts/Voltaire.eot?#iefix') format('embedded-opentype'),
+//    url('../fonts/Voltaire.woff') format('woff'),
+//    url('../fonts/Voltaire.ttf') format('truetype');
+//}
+//
+//*,
+//*:before,
+//*:after {
+//    box-sizing: border-box;
+//}
+//
+//html {
+//    height: 100%;
+//}
+//
+//body {
+//    @include font-regular;
+//    @include font-size-16;
+//
+//    margin: 0;
+//    padding: 0;
+//    height: 100%;
+//}
+//
+//h1 {
+//    @include font-italic;
+//    @include font-size-20;
+//    font-weight: normal;
+//    text-transform: uppercase;
+//    margin: 12px 0;
+//
+//    @include screen-m {
+//        @include font-size-26;
+//        margin: 8px 0;
+//    }
+//
+//    @include min-screen-l {
+//        @include font-size-36;
+//        margin: 4px 0;
+//    }
+//}
+//
+//h2 {
+//    @include font-size-32;
+//    font-weight: normal;
+//    margin: 20px 0;
+//}
+//
+//h3 {
+//    @include font-size-24;
+//    margin: 12px 0;
+//}
+//
+//#root {
+//    display: flex;
+//    flex-direction: column;
+//    height: 100%;
+//}
+//
+//ul {
+//    padding: 0;
+//    margin: 0;
+//    list-style-type: none;
+//    text-align: left;
+//}
+//
+//label {
+//    display: flex;
+//}
+//
+//input {
+//    -webkit-appearance: none;
+//    -moz-appearance: none;
+//    appearance: none;
+//    border-radius: 0;
+//}
+//
+//sup {
+//    margin-left: 4px;
+//}
+//
+//textarea {
+//    resize: none;
+//}
